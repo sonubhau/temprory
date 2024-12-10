@@ -1,6 +1,7 @@
 # find a factorial of given num using recursive function
 # by normal loop
-
+# Defination ==> recursion means same function call itself again and again
+# so that we need to think abaut exit statergy.... 
 def factorial_normal (num):
     x=1
     for n in range(1,(num+1)) :
