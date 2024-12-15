@@ -10,6 +10,7 @@ c1 = Car("Tata","Nexon")
 print(c1.full_name())
 print(c1.brand)
 c2 = Car("Toyata","Figo")
+c3 = Car("Jagwar","lamborgini")
 print(c2.full_name())
 print(c1.total_car) #Both the way we can access total_car object but the best
-print(Car.total_car) # way using class name.var
+print(Car.total_car) # way using class name.classvariable
